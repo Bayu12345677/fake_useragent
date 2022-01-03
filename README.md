@@ -48,7 +48,7 @@ ua=$(Bash::Ua.Random)
 curl --silent \
      --request GET \
      --location \
-     https://example.com
+     https://example.com -H "user-agent: ${ua}"
 ```
 
 - #### kontak saya
